@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 10px;
+    gap: 10px;
+    background: rgba(32, 70, 196, 0.5);
+    border: none;
+}
+
+.formContainer input{
+    border: none;
+
+}
